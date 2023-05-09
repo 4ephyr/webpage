@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ba49a9b1cb.js" crossorigin="anonymous"></script>
+    <script src="./js/main-script.js" defer></script>
+    <link rel="stylesheet" href="./styles/main-style.css">
+    <title>WebDesign</title>
+</head>
+<body>
+        <header class="main-header container">
+            <div class="admin-logo">
+                <img src="./images/rec.png" alt="Err">
+                <h3>Admin</h3>
+            </div>
+            <div class="search-details-div">
+            <div class="search" id="search">
+                <div class="search-icon">
+                    <img src="./images/search-interface-symbol.png" alt="">
+                </div>
+                    <input type="search" id="input-box" class="search-bar" placeholder="Search here">
+            </div>
+            
+            <div class="details">
+                <i class="fa-regular fa-bell"></i>
+                <img src="./images/profile.png" alt="">
+                <div class="dr-name">
+                    <h5>Dr. Yasin</h5>
+                    <mail-to>yasin@example.com</mail-to>
+                </div>
+            </div>
+            </div>
+        </header>
+        <div class="flex-box">
+            <nav class="side-nav">
+                <div class="start">
+                    <a href="#"><i class="fa-solid fa-house"></i>Dashboard</a>
+                    <a href="#"><i class="fa-solid fa-users"></i>Patients</a>
+                    <a href="#"><i class="fa-solid fa-chart-line"></i>Doctors Activities</a>
+                    <a href="#"><i class="fa-solid fa-file-medical"></i>Reports</a>
+                </div>
+                <div class="end">
+                        <a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+                    </div>
+            </nav>
+             <div class="main-sec">
+                <div class="flex-box head1">
+                <h2>Dashboard</h2>
+                <div class="flex-box">
+                <p><span>Sort : </span>
+                    <div class="dropdown1">
+                    <select class="dropdwn" name="sortbtn" id="">
+                    <option class="optn" value="alltime" selected>All time</option>
+                    <option value="24">Last 12 hrs</option>
+                    <option value="24">Last 24 hrs</option>
+                </select>
+                </div>
+                </p>
+                </div>
+                </div>
+                <p class="wlcm">Welcome back, Dr Yasin</p>
+                <div class="revenue flex-box">
+                    <div class="box1">
+                        <div class="box-in">
+                            <div class="bv flex-box">
+                                <h3>Total Business Volume</h3>
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <h2>$00,000.00</h2>
+                            <div class="comp">
+                                <p class="compare"><i class="fa-solid fa-angle-up"></i> 0% Compared to last month</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="box-in2">
+                            <div class="bv flex-box">
+                                <h3>Completed BV</h3>
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <h2>$00,000.00</h2>
+                            <div class="comp">
+                                <p class="compare"><iclass="fa-solid fa-angle-up"></i> 0% Compared to last month</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="box-in3">
+                            <div class="bv flex-box">
+                                <h3>Uncompleted BV</h3>
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <h2>$00,000.00</h2>
+                            <div class="comp">
+                                <p class="compare"><i class="fa-solid fa-angle-up"></i> 0% Compared to last month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            </div>
+    </section>
+</body>
+</html>
