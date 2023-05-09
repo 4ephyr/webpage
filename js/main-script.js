@@ -7,4 +7,3 @@ box.addEventListener('focus',()=>{
 box.addEventListener('blur',()=>{
     search.style.boxShadow = 'none'
 })
-
